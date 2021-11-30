@@ -23,8 +23,6 @@
     <!-- Generals  -->
     <!--+++++++++++-->
 
-    <!-- App name [CHAR LIMIT=NONE] -->
-    <string name="app_name" translatable="false">GoBees</string>
     <!-- App name - Go [CHAR LIMIT=NONE] -->
     <string name="gobees_go" translatable="false">Go</string>
     <!-- App name - Bees [CHAR LIMIT=NONE] -->
@@ -174,7 +172,6 @@
     <string name="condition_961">Violent storm</string>
     <string name="condition_962">Hurricane</string>
     <string name="condition_unknown">Unknown (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
-
 
     <!--+++++++++++++++-->
     <!-- General Icons -->
@@ -400,7 +397,6 @@
     <!-- Monitoring notification text [CHAR LIMIT=100] -->
     <string name="monitoring_notification_text">Monitoring hive…</string>
 
-
     <!--++++++++++++++++++++-->
     <!-- Monitoring Settings-->
     <!--++++++++++++++++++++-->
@@ -444,7 +440,6 @@
     <integer name="pref_min_area_max">399</integer>
     <!-- Default value in SharedPreferences for min area [CHAR LIMIT=NONE] -->
     <integer name="pref_min_area_default">15</integer>
-
 
     <!-- Label for the max area preference [CHAR LIMIT=30] -->
     <string name="pref_max_area_label">Max. area bee</string>
@@ -512,7 +507,6 @@
     <!-- Value in SharedPreferences for frame rate 5min [CHAR LIMIT=NONE] -->
     <string name="pref_frame_rate_5min" translatable="false">300000</string>
 
-
     <!--++++++++++-->
     <!-- Settings -->
     <!--++++++++++-->
@@ -557,6 +551,14 @@
     <!-- Data deleted successfully message [CHAR LIMIT=100] -->
     <string name="all_data_deleted_msg">Data deleted!</string>
 
+    <!--+++++++++++++++-->
+    <!-- Notifications -->
+    <!--+++++++++++++++-->
+
+    <!-- Monitoring channel [CHAR LIMIT=100] -->
+    <string name="not_channel_monitoring">Monitoring</string>
+    <!-- Monitoring channel description [CHAR LIMIT=300] -->
+    <string name="not_channel_monitoring_desc">Monitoring related notifications</string>
 
     <!--+++++++++++++++++++++-->
     <!-- Share app & feedback-->
@@ -578,6 +580,7 @@
     <!--+++++++-->
     <!-- About -->
     <!--+++++++-->
+
     <!-- GoBees app [CHAR LIMIT=100] -->
     <string name="gobees_app" translatable="false">GoBees App</string>
     <!-- App version [CHAR LIMIT=100] -->
@@ -658,7 +661,6 @@
         you may not use this file except in compliance with the License.
         You may obtain a copy of the License at
         <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache v2.0</a>.</p>
-
         <p>Unless required by applicable law or agreed to in writing, software
         distributed under the License is distributed on an "AS IS" BASIS,
         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
@@ -675,10 +677,8 @@
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:</p>
-
         <p>The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.</p>
-
         <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
         EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
         MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
@@ -693,7 +693,6 @@
         <![CDATA[
         <p>Redistribution and use in source and binary forms, with or without modification,
         are permitted provided that the following conditions are met:</p>
-
         <p>
             * Redistributions of source code must retain the above copyright notice,
               this list of conditions and the following disclaimer.<br>
@@ -704,7 +703,6 @@
               may be used to endorse or promote products derived from this software
               without specific prior written permission.
         </p>
-
         <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
         "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
         LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
@@ -723,7 +721,6 @@
         <![CDATA[
         <p>The project is licensed under a
         Creative Commons Attribution-ShareAlike 3.0 Unported License.</p>
-
         <p>You should have received a copy of the license along with this
         work. If not, see <http://creativecommons.org/licenses/by-sa/3.0/>.</p>
         ]]>
@@ -856,7 +853,6 @@
         ]]>
     </string>
 
-
     <!--+++++++++++++++++++++-->
     <!-- Generate random data-->
     <!--+++++++++++++++++++++-->
@@ -870,3 +866,15 @@
     <!-- Sample hive notes [CHAR LIMIT=30] -->
     <string name="sample_hive_notes">Check if it has varroa.</string>
 </resources>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
