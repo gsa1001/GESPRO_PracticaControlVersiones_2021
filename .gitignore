@@ -79,3 +79,5 @@ fabric.properties
 	@@ -113,19 +90,4 @@ fabric.properties
 */cmake_install.cmake
 .DS_Store
+
+# End of https://www.gitignore.io/api/android,intellij,opencv,gradle
