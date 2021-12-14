@@ -14,7 +14,7 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/gpl-3.0.txt>.
- */
+*/
 
 buildscript {
     repositories {
@@ -48,7 +48,6 @@ allprojects {
         maven { url 'https://maven.fabric.io/public' } // Crashlytics
     }
 }
-
 task clean(type: Delete) {
-    delete rootProject.buildDir
+   delete rootProject.buildDir
 }
