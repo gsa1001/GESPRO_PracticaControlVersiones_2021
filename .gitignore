@@ -4,14 +4,18 @@
 # Built application files
 *.apk
 *.ap_
+
 # Files for the ART/Dalvik VM
 *.dex
+
 # Java class files
 *.class
+
 # Generated files
 bin/
 gen/
 out/
+
 # Gradle files
 .gradle/
 build/
@@ -31,8 +35,10 @@ local.properties
 
 # Log Files
 *.log
+
 # Android Studio Navigation editor temp files
 .navigation/
+
 # Android Studio captures folder
 captures/
 
@@ -76,7 +82,9 @@ fabric.properties
 ### OpenCV ###
 #OpenCV for Mac and Linux
 #build and release folders
-	@@ -113,19 +90,4 @@ fabric.properties
+*/CMakeFiles
+*/CMakeCache.txt
+*/Makefile
 */cmake_install.cmake
 .DS_Store
 

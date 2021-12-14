@@ -14,7 +14,7 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/gpl-3.0.txt>.
-*/
+ */
 
 buildscript {
     repositories {
@@ -27,7 +27,7 @@ buildscript {
         // JaCoCo Android : https://github.com/arturdm/jacoco-android-gradle-plugin
         classpath 'com.dicedmelon.gradle:jacoco-android:0.1.2'
         // Realm db : https://github.com/realm/realm-java/blob/master/CHANGELOG.md
-        classpath 'io.realm:realm-gradle-plugin:3.7.0'
+        classpath 'io.realm:realm-gradle-plugin:3.7.2'
         // Fabric Gradle Plugin (For Crashlytics) : https://docs.fabric.io/android/changelog.html#fabric-gradle-plugin
         classpath 'io.fabric.tools:gradle:1.24.2'
         // Google Services Gradle Plugin (for Firebase) : https://developers.google.com/android/guides/google-services-plugin
@@ -50,6 +50,7 @@ allprojects {
         maven { url 'https://maven.fabric.io/public' } // Crashlytics
     }
 }
+
 task clean(type: Delete) {
-   delete rootProject.buildDir
+    delete rootProject.buildDir
 }
